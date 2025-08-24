@@ -12,16 +12,5 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
-  app:
-    build: .
-    container_name: waiter-agent
-    restart: always
-    depends_on:
-      - db
-    env_file:
-      - .env
-    ports:
-      - "8000:8000"
-
 volumes:
   pgdata:
