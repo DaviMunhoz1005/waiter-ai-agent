@@ -5,9 +5,12 @@
 
 ## 🔹 Sobre o Projeto
 
-O **Virtual Waiter AI** é um agente inteligente voltado para restaurantes, capaz de recomendar pratos aos clientes com base em uma base de dados própria extraída de um arquivo JSON.
+O Virtual Waiter AI é um agente inteligente voltado para restaurantes, capaz de recomendar pratos aos clientes com base em uma base de dados própria extraída de um arquivo JSON.
 O agente coleta informações como nome, descrição, preço, alérgenos e porções de cada prato e oferece recomendações personalizadas, considerando preferências do usuário, restrições alimentares e estilo da refeição.
+
+Caso faltem informações importantes para a recomendação, o agente faz perguntas passo a passo ao usuário, como tipo de prato, restrições alimentares, preferências de estilo ou quantidade de pessoas, garantindo sugestões precisas e adequadas.
 Ele simula a experiência de um garçom virtual, respondendo de forma educada e detalhada.
+
 ---
 
 ## 🎯 Objetivo
