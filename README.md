@@ -98,7 +98,7 @@ POSTGRES_DB=your_db
 DB_PORT=5532
 ```
 
-4. Inicie o container com a imagem do pgvector e PostgreSQL:
+5. Inicie o container com a imagem do pgvector e PostgreSQL:
 ```bash
 docker compose up -d
 ```
